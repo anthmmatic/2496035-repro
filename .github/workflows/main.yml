@@ -2,6 +2,8 @@ on:
   push:
     branches-ignore:
       - 'branchname'
+    tags:
+      - '**'
 
 jobs:
   job-name:
