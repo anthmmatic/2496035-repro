@@ -1,9 +1,10 @@
 on:
   push:
-    branches-ignore:
-      - 'branchname'
     tags:
       - '**'
+    branches:
+      - 'main'
+
 
 jobs:
   job-name:
