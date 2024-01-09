@@ -1,5 +1,7 @@
 on:
   push:
+    branches-ignore:
+      - 'branchname'
 
 jobs:
   job-name:
